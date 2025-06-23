@@ -8,7 +8,7 @@
 (define-constant exc-missing-record (err u102))
 (define-constant exc-premature-access (err u103))
 (define-constant exc-invalid-duration (err u104))
-(define-constant exc-operation-failure (err u105)) ;; Changed from 1205 to u105
+(define-constant exc-operation-failure (err u105))
 
 ;; Repository for chronologically-locked payloads
 (define-map temporal-repository
